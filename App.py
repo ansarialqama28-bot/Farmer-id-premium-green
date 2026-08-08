@@ -16,7 +16,7 @@ CORS(app)
 # Template images ab imgbb se nahi, isi repository se load hote hain.
 # front_template.jpg / back_template.jpg ko app.py ke saath, usi folder mein rakhna.
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-FRONT_CARD_TEMPLATE_PATH = os.path.join(BASE_DIR, "front_template.jpg")
+FRONT_CARD_TEMPLATE_PATH = os.path.join(BASE_DIR, "front_template_green.jpg")
 
 TEMPLATE_W, TEMPLATE_H = 1559, 1009
 
@@ -64,7 +64,7 @@ FONT_BOLD_PATH = "Poppins-Bold.ttf"
 # ============================================================
 # CONFIG — BACK CARD
 # ============================================================
-BACK_CARD_TEMPLATE_PATH = os.path.join(BASE_DIR, "back_template.jpg")
+BACK_CARD_TEMPLATE_PATH = os.path.join(BASE_DIR, "back_template_green.jpg")
 
 BACK_TEMPLATE_W, BACK_TEMPLATE_H = 1537, 1023
 
